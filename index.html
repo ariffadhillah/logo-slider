@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: 'PT Sans', sans-serif;
+}
+.HoverBtnShop {
+    
+}
+.ImgCarousel {
+    padding: 40px 0 70px;
+}
+
+h5.TitleFooterLogoClient {
+    color: #000 !important;
+    font-size: 22px;
+    margin-left: 2px;
+    margin-bottom: 40px;
+}
+
+.qodef-logo-area{
+    background-color: #f2e9e4 !important;
+}
+
+.Fullwidth {
+    text-align: center;
+}
+
+.ImgHref strong.TitleBookVegan {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: .5s;
+}
+
+.ImgHref:hover {
+    text-decoration: underline;
+}
+.ImgHref:hover strong.BtnBuyBook {
+    background-color: #ea787e;
+    color: #fff;
+    text-decoration: underline;
+    opacity: 0.9;
+}
+strong.BtnBuyBook {
+    display: inline-block;
+    margin-top: 6px;
+    margin-bottom: 80px !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    background-color: #ea787e !important;
+}
+
+.ImgHref img:hover {
+    /*box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);*/
+}
+
+.BgHero {
+    padding: 90px 0;
+    background-color: #ea787e;
+}
+.BgHero h1 {
+    font-family: 'Poppins' !important;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.BgHero h2 {
+    color: #fff;
+    font-size: 2.25em;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.BgHero h6 {
+    margin-top: 0;
+    margin-bottom: .6em;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: .5px;
+    text-align: center;
+    line-height: 2;
+}
+.BgHero h6 a {
+    padding: 0 4px;
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.BgHero h6 a:hover {
+    color: #fff;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.RowDiskripsi {
+    padding: 0;
+}
+.BgHero h6 em {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.SectionProductTop {
+    background: linear-gradient(180deg,#ea787e,#ea787e 16rem,transparent 0,transparent);
+}
+.SectionProductBottom,
+.SectionProductTop  {
+    padding: 0 50px;
+}
+
+
+
+.SectionProductBottom .vc_col-sm-4 .ElementBgWhite img,
+.SectionProductTop .vc_col-sm-4 .ElementBgWhite img {
+    width: 380px;
+    margin-bottom: 18px;
+    height: 415px;
+}
+
+@media screen and (max-width: 992px) {
+    .SectionProductBottom .vc_col-sm-4 .ElementBgWhite img,
+    .SectionProductTop .vc_col-sm-4 .ElementBgWhite img {
+        width: auto;
+        margin-bottom: 18px;
+        height: auto;
+    }
+    strong.BtnBuyBook {
+        padding: 14px 50px 14px;
+        margin-bottom: 70px !important;
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+    }
+    .BgHero {
+        padding: 50px 0;
+    }
+    .RowDiskripsi {
+        padding: 0 30px;
+    }
+    .sliderCarousel::before, .sliderCarousel::after {
+        background: none;
+    }
+    
+    .BgHero h1 {
+        font-size: 1.4rem;
+    }
+    .BgHero h2 {
+      font-size: 1em;      
+    }
+    .BgHero h6 {
+            
+    }
+    
+    .NamePostBlog .qodef-bl-wrapper.qodef-outer-space ul li .qodef-bli-inner .qodef-bli-content {
+        padding: 10px 10px 0;
+    }
+    .NamePostBlog .qodef-bl-wrapper.qodef-outer-space ul li h3 a {
+        font-size: 20px !important;
+    }
+    .NamePostBlog p.DiscriptionTitle {
+        margin-top: 0;
+    }
+}
+
+.NamePostBlog .qodef-blog-list-holder .qodef-bli-info {
+    margin-top: 10px;
+}
+
+.NamePostBlog .qodef-social-share-holder.qodef-list li {
+    margin: 0 16px 3px 0 !important;
+}
+.NamePostBlog .qodef-blog-share li.qodef-facebook-share a span{
+    font-size: 13px !important;
+    padding: 9px 10px !important;
+    width: 12px;
+    height: 13px;
+    display: inline-block;
+    line-height: 14px;
+    text-align: center;
+    border: 1px solid #eae9e7 !important;
+    background-color: #ffffff !important;
+    color: #3c3c3c;
+}
+.NamePostBlog .qodef-blog-share .qodef-social-share-holder.qodef-list ul li.qodef-pinterest-share a span, .qodef-blog-share .qodef-social-share-holder.qodef-list ul li.qodef-linkedin-share a span,
+.NamePostBlog .qodef-blog-share .qodef-social-share-holder.qodef-list ul li.qodef-twitter-share a span {
+    font-size: 13px;
+    padding: 9px 10px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    line-height: 13px;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid #eae9e7 !important;
+    background-color: #ffffff !important;
+    color: #3c3c3c;
+}
+
+
+.NamePostBlog h3.entry-title.qodef-post-title a{
+    color: #060606;
+    font-family: 'Poppins' !important;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.NamePostBlog .qodef-social-share-holder.qodef-list li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0 20px 3px 0;
+}
+
+.NamePostBlog .qodef-social-share-holder.qodef-list li a {
+    font-size: 13px;
+}
+
+
+
+.NamePostBlog .qodef-social-share-holder.qodef-list ul {
+    display: flex;
+    /*display: -ms-flexbox;*/
+    -ms-flex-pack: center;
+}
+
+.NamePostBlog .qodef-bl-wrapper.qodef-outer-space ul li {
+    width: 100% !important;
+    margin-bottom: 0 !important;
+}
+.NamePostBlog .qodef-bl-wrapper.qodef-outer-space ul li h3 a {
+    color: #060606;
+    font-family: 'Poppins';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+}
+.NamePostBlog .qodef-blog-share .qodef-social-share-holder.qodef-list ul li.qodef-facebook-share a span:hover,
+.NamePostBlog .qodef-blog-share .qodef-social-share-holder.qodef-list ul li.qodef-pinterest-share a span:hover,
+.qodef-blog-share .qodef-social-share-holder.qodef-list ul li.qodef-linkedin-share a span:hover,
+.NamePostBlog .qodef-blog-share .qodef-social-share-holder.qodef-list ul li.qodef-twitter-share a span:hover,
+.NamePostBlog .qodef-bl-wrapper.qodef-outer-space ul li h3 a:hover {
+    color: #ffbea5;
+}
+
+/*.NamePostBlog .qodef-social-share-holder ul {*/
+/*    display: flex;*/
+    /*display: -webkit-box;*/
+/*    display: -ms-flexbox;*/
+/*}*/
+
+.jetpack_subscription_widget .error{
+    border: 1px solid #e63e2f !important;
+    padding: 0 20px;
+    font-size: 14px !important;
+    background: #f4c6c6 !important;
+    color: #595050 !important;
+}
+.jetpack_subscription_widget .error a {
+    color: #000;
+    text-decoration: underline;
+}
+.jetpack_subscription_widget .success {
+    border: 1px solid #333633 !important;
+    background: #14ab0b2e !important;
+    color: #393a39 !important;
+    padding: 0 20px !important;
+}
+.RowSubscribe {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.ColImageGlutenFree img {
+    width: 535px;
+    height: 394px;
+}
+
+.ImgVegan img {
+    width: 535px;
+    height: 498px;
+}
+
+.BoxExclusiveRecipes {
+    transition: 5s;
+}
+.BoxExclusiveRecipes:hover h6 a {
+    text-decoration: underline;
+    color: #ffbea5;
+}
+
+@media screen and (max-width: 320px) {
+
+
+}
+.Subscribe-Email #subscribe-blog-1 #subscribe-submit button {
+ transition: .5s;
+}
+.Subscribe-Email #subscribe-blog-1 #subscribe-submit button:hover {
+    opacity: .8;
+}
+@media screen and (max-width: 1024px) {
+    .TitleBookVegan {
+        font-size: 24px;
+        margin-top: 60px;
+    }
+    .minMtop {
+        margin-top: 40px !important;
+    }
+
+    .ColSubscribeBlog h5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .RowSubscribe .vc_col-sm-6 .vc_column-inner h6 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Subscribe-Email #subscribe-blog-1 #subscribe-submit {
+        width: 100% !important;
+    }
+    .Subscribe-Email #subscribe-blog-1 #subscribe-submit button {
+        margin-left: 0 !important;
+    }
+    
+    .Subscribe-Email #subscribe-blog-1 #subscribe-submit button,
+    .Subscribe-Email #subscribe-blog-1 #subscribe-email {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    .Subscribe-Email #subscribe-blog-1 #subscribe-email input {
+        margin-bottom: 14px !important;
+    }
+    .Subscribe-Email #subscribe-blog-1 {
+        display:block !important;
+    }
+    .BtnBuyBook a {
+        padding: 12px 42px 12px !important;
+    }
+    .TitleBookVegan.minMtop {
+        margin-top: 0px !important;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .RowSubscribe {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    .ColImageGlutenFree img {
+        width: 300px;
+        height: 221px;
+    }
+
+    .ImgVegan img {
+        width: 300px;
+        height: 279px;
+    }
+
+    .Choose h2 {
+        font-size: 32px;
+    }
+    .RiviewsClient h3 {
+        font-size: 28px !important;
+    }
+    .Guide .wpb_wrapper {
+        padding-top: 60px;
+    }
+    .Beginner {
+        font-size: 24px !important;
+    }
+    .ColImageGlutenFree {
+        margin-top: 70px;
+    }
+    .PostBlogLatest {
+        padding:100px 15px 0 !important;
+    }
+    
+    .TitleBookVegan.minMtop {
+        margin-top: 0px !important;
+    }
+    .BtnBuyBook a {
+        padding: 12px 42px 12px !important;
+    }
+    .TitleBookVegan {
+        font-size: 22px !important;
+        margin-top: 0 !important;
+    }
+    .ColSubscribeBlog h5 {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .RowSubscribe .vc_col-sm-6 .vc_column-inner h6 {
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Subscribe-Email #subscribe-blog-1 #subscribe-submit {
+        width: 100% !important;
+    }
+    .Subscribe-Email #subscribe-blog-1 #subscribe-submit button {
+        margin-left: 0 !important;
+    }
+    .Subscribe-Email #subscribe-blog-1 #subscribe-submit button,
+    .Subscribe-Email #subscribe-blog-1 #subscribe-email {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    .Subscribe-Email #subscribe-blog-1 #subscribe-email input {
+        margin-bottom: 14px !important;
+    }
+    .Subscribe-Email #subscribe-blog-1 {
+        display:block !important;
+    }
+    .RowTopPostBlog {
+        padding-top: 50px !important;
+        padding-bottom: 0 !important;
+    }
+    .NamePostBlog .vc_column-inner .wpb_wrapper {
+        padding: 10px 14px !important;
+    }
+
+    .Ahref {
+        font-size: 20px !important;
+    }
+    .RecipesVegan .qodef-bli-inner {
+        display: block !important;
+    }
+    .RecipesVegan .qodef-post-image {
+        width: 100% !important;
+    }
+    .RecipesVegan .qodef-bli-content {
+        padding: 0 !important;
+    }
+}
+
+
+.ColSubscribeBlog h5 {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif !important;
+    letter-spacing: 0;
+}
+.ColSubscribeBlog h6 {
+    font-weight: 300;
+    color: #383838;
+    font-size: 15px;
+    padding-top: 8px;
+    letter-spacing: .1px;
+    font-family: 'PT Sans', sans-serif !important;
+    opacity: .7;
+}
+
+
+.Subscribe-Email #subscribe-blog-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+.Subscribe-Email #subscribe-blog-1  #subscribe-email {
+    width: 68%;
+    margin: 0;
+}
+.Subscribe-Email #subscribe-blog-1  #subscribe-email input {
+    margin-bottom: 0;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    border-width: 1px;
+    padding: 12px 18px  !important;
+    border-radius: 2px;
+    box-shadow: 0 0px 16px 0 rgb(0 0 0 / 4%);
+    border: 1px solid #e5e5e5;
+    color: #888;
+}
+.Subscribe-Email #subscribe-blog-1 #subscribe-submit {
+    width: 30%;
+    margin: 0;
+}
+.Subscribe-Email #subscribe-blog-1 #subscribe-submit button {
+    font-family: 'Poppins' !important;
+    font-size: 12px  !important;
+    text-transform: uppercase;
+    border-radius: 0px;
+    border-width: 1px;
+    width: auto;
+    padding: 12px 18px 12px 18px !important;
+    margin-left: 5px;
+    letter-spacing: 3px;
+    background-color: #ea787e;
+    color: #fff;
+    border: 1px solid #ea787e;
+}
+.Subscribe-Email {
+    margin-top: 5px;
+}
+.RowSubscribe {
+    padding: 30px 35px;
+}
+
+.RowSubscribe .vc_col-sm-6 .vc_column-inner {
+    padding: 0;
+}
+.RowSubscribe .vc_col-sm-6 .vc_column-inner h6 {
+    margin: 0;
+}
+.RowSubscribe .vc_col-sm-6 .vc_column-inner h5 {
+    margin: 0;
+}
+.minMtop {
+    margin-top: 80px !important;
+}
+.CoolTextBook {
+    line-height: 1.6;
+}
+.CoolTextBook a {
+    font-size: 19px;
+    font-family: 'PT Sans', sans-serif !important;
+    color: #0c0c0b;
+    margin-right: 12px;
+    text-decoration: underline;
+    letter-spacing: -0.9px;
+}
+.TitleBookVegan {
+    color: #060606;
+    font-size: 34px;
+    font-family: 'Poppins' !important;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: 0.01px !important;
+    margin-top:120px;
+}
+h5.BtnBuyBook {
+    text-align: left;
+    margin-top: 50px;
+}
+strong.BtnBuyBook,
+.BtnBuyBook a {
+    text-decoration: none;
+    padding: 12px 25px 12px;
+    font-family: 'Poppins' !important;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s, background 0.3s, border 0.3s;
+    background-color: #0c0c0b;
+    color: #fff;
+}
+.BtnBuyBook a:hover {
+    opacity: .9;
+}
+
+/* footer */
+
+.CopyRight {
+    padding: 100px 0 30px;
+}
+
+.CopyRight .footer-bottom span {
+    margin-right: 6px;
+}
+
+.CopyRight .footer-bottom a {
+    text-transform: capitalize;
+    padding: 0 6px;
+    color: #fff;
+}
+.CopyRight .footer-bottom a:hover {
+    color: #ffbea5;
+}
+
+.CopyRight .footer-bottom strong,
+.CopyRight .footer-bottom a,
+.CopyRight .footer-bottom{
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins' !important;
+}
+.FooterTest .Subscribe {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 23px;
+    padding: 22px 8% 30px;
+}
+.FooterTest .Subscribe h5 {
+    margin-top:0;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.FooterTest #subscribe-submit button {
+    margin-top: 10px;
+}
+.Imgbadge {
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.TitleFooter.Title-Top {
+    margin-top: 70px;
+}
+.TitleFooter.Title-Bottom {
+    margin-bottom: 20px;
+}
+
+.TitleFooter {
+    margin-top: 0;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Poppins' !important;
+    font-weight: 600;
+    letter-spacing: .03em;
+}
+.UlCategory {
+    margin: 18px 0;
+}
+
+.UlCategory a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins' !important;
+    font-weight: 400;
+    letter-spacing: .04em;
+}
+
+/* end*/
+
+.IconsFooter {
+    padding: 20px 0;
+}
+
+.IconsFooter a img.Icons-FB {
+    padding-right: 6px;
+    padding-left: 10px;
+}
+
+.IconsFooter a img {
+    padding: 0 8px;
+}
+
+p.woocommerce-store-notice.demo_store {
+    display: none !important;
+}
+
+.FooterTest {
+    border-top: 10px solid #ffab8a;
+    padding: 100px 0  0 !important;
+}
+
+.LogoimageSize {
+    width: 220px;
+    padding-bottom: 30px;
+}
+
+.IconsFooterText {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 14px 8px;
+}
+.IconsFooterText img {
+    width: 25px;
+    height: 16px;
+    margin-top: 6px;
+}
+.IconsFooterText img.ImgPhone {
+    width: 12px;
+    height: 20px;
+    margin-top: 0px;
+}
+.IconsFooterText img.EmailFooter {
+    width: 16px;
+    height: 17px;
+    margin-top: 4px;
+}
+.IconsFooterText a {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 12px;
+    /*letter-spacing: .02em;*/
+}
+
+.IconsFooterText a.email {
+    padding-left: 8px;
+}
+.IconsFooterText a:hover {
+    text-decoration: underline;
+}
+.st-image-share-buttons.st-center.st-inline-share-buttons.st-animated {
+    display: none !important;
+}
+.BtnBuyBook,
+.BuyBooks {
+    text-align: center;
+}
+
+.BtnBuyBook p {
+    margin: 0;
+}
+
+.BuyBooks .BtnLink {
+    background: #ffffff !important;
+    margin: 3px !important;
+    transition: .5s;
+    border: 1px solid #ddd !important;
+    color: #000 !important;
+    font-weight: 600;
+    border-radius: 0;
+    color: #888 !important;
+}
+
+.BtnBuyBook .BtnBuy:hover,
+.BuyBooks .BtnLink:hover {
+    background: #ffbea5 !important;
+    border: 1px solid #ffbea5;
+}
+
+.BtnBuyBook .BtnBuy {
+    background: #ffffff !important;
+    margin: 3px !important;
+    transition: .5s;
+    border: 1px solid #f7f7f7 !important;
+    color: #888 !important;
+    border-radius: 0;
+    text-align: center;
+    font-size: 12px;
+    padding: 6px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.MetJaclyn {
+    text-align: center;
+    padding: 0 15px;
+}
+
+.MetJaclyn .vc_column-inner {
+    background: #f2e9e4;
+    padding: 20px 20px 30px;
+    margin-bottom: 20px;
+}
+
+.WidgetTitle {
+    text-transform: capitalize;
+    margin-top: 0 !important;
+    margin-bottom: 30px !important
+}
+
+.TitleName {
+    margin-top: 10px;
+    margin-bottom: 20px !important;  
+    -webkit-box-shadow: inset 0 -8px 0 #ffbea5;
+    -moz-box-shadow: inset 0 -8px 0 #ffbea5;
+    box-shadow: inset 0 -8px 0 #ffbea5;
+    font-family: 'Poppins' !important;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color:#3c3131;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 2px;
+    box-shadow: inset 0 -8px 0 #ffbea5;
+    line-height: 18px;
+    transition: .5s;
+}
+.TitleName:hover {
+    box-shadow: inset 0 -8px 0 #fff;
+    -webkit-box-shadow: inset 0 -8px 0 #fff;
+    -moz-box-shadow: inset 0 -8px 0 #fff;
+    color: #060505;
+}
+
+
+
+
+.Jaclyn {
+    
+}
+
+.fa.fa-chevron-left:hover,
+.fa.fa-chevron-right:hover {
+    background-color: #ffbea5;
+    border: 1px solid #ffbea5;
+    color: #fff;
+}
+
+/*icons arrow */
+.fa.fa-chevron-left,
+.fa.fa-chevron-right {
+    position: relative;
+    display: block;
+    width: 44px;
+    height: 44px;
+    line-height: 42px;
+    font-size: 15px;
+    text-align: center;
+    color: #ddd;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+}
+
+.SectionCoose {
+    padding: 80px 0 80px !important;
+}
+
+.RowChoose {
+    background-color:#fff;
+}
+.RowChoose .vc_col-sm-4 .vc_column-inner {
+    padding: 0;
+}
+.col-sm8 {
+    padding: 15px 20px;   
+}
+.RowChoose .vc_col-sm-4 img {
+    display: block;
+    position: relative;
+}
+.DiscriptionChoose {
+    color: #6b6768;
+    font-family: 'PT Sans', sans-serif !important;
+    font-size: 15px;
+}
+
+.RiviewsClient {
+    padding: 20px 10px 50px;
+}
+
+.Choose h2 {
+    font-family: 'Poppins' !important;
+}
+.RiviewsClient h3 {
+    text-align: center;
+    font-family: 'Poppins' !important;
+    font-size: 32px;
+}
+.DiscriptionChoose {
+}
+
+.TagsCategory .widget.widget_tag_cloud {
+    border: 1px solid #eae9e7;
+    text-align: center;
+    padding: 0 20px 20px;
+    margin-top: 40px;
+}
+.TagsCategory .tagcloud a:hover {
+    color: #000 !important;
+}
+
+.BtnLink,
+.TagsCategory .tagcloud a {
+    font-family: 'Poppins' !important;
+    font-size: 10px !important;
+    font-weight: 400;
+    letter-spacing: .4px;
+    line-height: 0 !important;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+    background: none;
+    color: #5a5353 !important;
+    padding: 12px 8px 12px 8px !important;
+    margin: 0 1px 6px;
+    margin-bottom: 8px;
+    display: inline-block;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
+    border-radius: 0;
+    box-shadow: none;
+}
+.TagsCategory {
+    margin-top: -30px;
+}
+
+/*transition*/
+.BoxImage a img {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: -webkit-transform .2s cubic-bezier(.76,.35,.32,.79);
+    transition: -webkit-transform .2s cubic-bezier(.76,.35,.32,.79);
+    -o-transition: transform .2s cubic-bezier(.76,.35,.32,.79);
+    transition: transform .2s cubic-bezier(.76,.35,.32,.79);
+    transition: transform .2s cubic-bezier(.76,.35,.32,.79),
+    -webkit-transform .2s cubic-bezier(.76,.35,.32,.79);
+}
+
+.BoxImage a img :hover,
+.BoxExclusiveRecipes h6:hover .BoxImage a img {
+    -webkit-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    transform: translateY(-5%);
+}
+
+/*end*/
+
+.BoxExclusiveRecipes h6 {
+    margin-top: 0 !important;
+}
+.BoxExclusiveRecipes h6 a {
+    font-family: 'Poppins' !important;
+    font-weight: 400;
+    color: #060606;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    letter-spacing: 0 !important;
+    text-transform: capitalize;
+}
+
+.BoxImage {
+    display: block;
+    /*width: 80px;*/
+}
+.BoxExclusiveRecipes {
+    /*display: flex;*/
+}
+.TagsCategory .tagcloud {
+    margin-top: 20px;
+}
+h2.widgettitle {
+    top: -14px;
+}
+
+
+
+.BoxRecipes h5 {
+    top: -34px;
+}
+
+h2.widgettitle,
+.BoxRecipes h5 {
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    z-index: 9;
+    padding: 0 16px;
+    font-family: 'PT Sans', sans-serif !important;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .1em;
+    color: #2d2d28;
+}
+
+.BoxRecipes {
+    padding: 15px 15px 40px;
+}
+.BoxRecipes .vc_column-inner{
+    border: 1px solid #eae9e7;
+    text-align: center;
+    padding: 20px;
+}
+
+.ExclusiveRecipes .Box1,
+.ExclusiveRecipes .Box2,
+.ExclusiveRecipes .Box3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.ExclusiveRecipes .BoxExclusiveRecipes {
+    width: 50%;
+    /* float: left; */
+    /* margin: auto; */
+    padding: 10px 7px 0;
+}
+
+.LatesPostBlog {
+    padding-bottom: 40px;
+}
+
+.LatesPostBlog h4 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0 !important;
+    position: relative;
+    display: inline-block;
+    font-family: 'PT Sans' !important;
+}
+
+.LatesPostBlog .qodef-bli-info h4 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+/*.LatesPostBlog .qodef-bli-info h5:before, */
+.LatesPostBlog .qodef-bli-info h4:after {
+    width: 24px;
+    margin: 0 20px;
+}
+
+.LatesPostBlog h4 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    font-family: 'PT Sans' !important;
+    color: #000;
+}
+
+.LatesPostBlog h4:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 1px solid;
+    border-color: #ddd;
+    width: 930px;
+    margin: 0 20px;
+}
+
+.categoriTag {
+    
+}
+
+.Subscribe form {
+    display: block !important;
+}
+.Subscribe {
+    background-color: #f2e9e4;
+    text-align: center;
+    padding: 22px 13.7% 40px;
+}
+.WidgetTitle,
+.Subscribe h5 {
+    font-family: 'PT Sans', sans-serif !important;
+    font-weight: 500;
+    color: #060606;
+    font-size: 23px;
+    line-height: 1.48em;
+    margin: 25px 0 10px;
+}
+.Subscribe form input {
+    background: #fff !important;
+}
+.Subscribe form input[type=email] {
+    color: #6b6768;
+}
+.Subscribe form .wp-block-button__link {
+    margin-left: 0;
+    width: 100%;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    background: #000;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 38px 11px !important;
+    line-height: 2em !important;
+    font-family: 'PT Sans', sans-serif !important;
+    text-transform: uppercase !important;
+    letter-spacing: .15em;
+    margin-left: 0 !important;
+}
+.DiskripsiWidget,
+.TitleSubscribe {
+    font-family: 'PT Sans', sans-serif !important;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    color: #6b6768;
+    margin-bottom: 30px;
+}
+
+.RecipesVegan .qodef-bl-item.qodef-item-space.clearfix {
+    display: block;
+    width: auto !important;
+    margin-bottom: 0 !important;
+}
+.RecipesVegan .qodef-bli-inner {
+    display: flex;
+}
+.RecipesVegan .qodef-post-image {
+    width: 60%;
+}
+.RecipesVegan .qodef-bli-content {
+    padding: 0 30px;
+}
+
+
+.RecipesVegan {
+    
+}
+.SectionVegan {
+    
+}
+
+.BuyBooks img {
+    border: 5px solid #fff;
+    margin-top: 30px;
+    /*margin-bottom: 50px;*/
+}
+
+.BooksNow {
+    padding: 80px 0;
+}
+
+.DiscriptionBooks {
+    margin-top: 100px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-family: 'PT Sans', sans-serif !important;
+    line-height: 1.6;
+}
+
+.TitleBooks {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif !important;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    margin-top: 100px;
+}
+
+.SectionGuide {
+    padding-top: 0 !important;
+}
+
+.emailSeubscribe .wp-block-button__link  {
+    background-color: #ffbea5 !important;
+}
+
+.Guide .wpb_wrapper {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.postImage .vc_column-inner {
+    padding: 0 !important;
+}
+
+
+.Beginner {
+    color: #060606;
+    font-family: 'Poppins' !important;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.DiscriptionBeginner {
+    font-family: 'PT Sans', sans-serif !important;
+    color: #0c0c0b;
+    margin-top: 30px;
+    margin-bottom: 34px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.BtnBeginner {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    outline: none;
+    color: #00243e;
+    background-color: #ea787e;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    min-width: 235px;
+    margin: 0;
+    padding: 14px 16px 14px;
+    font-family: 'Poppins' !important;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s, background 0.3s, border 0.3s;
+    white-space: nowrap;
+}
+.BtnBeginner:hover {
+    opacity: .9;
+    color: #fff;
+}
+.BooksNow {
+    
+}
+
+.TitleBooks {
+    
+}
+
+.BoxpostBlog .qodef-bl-item.qodef-item-space.clearfix {
+    /*padding: 20px 20px 0;*/
+    margin-bottom: 0 !important;
+}
+
+.PostBlogLatest {
+    padding: 130px 0 100px;
+}
+
+h5.qodef-post-info-date.entry-date.published.updated a {
+    color: #060606;
+    font-family: 'PT Sans', sans-serif !important;
+    font-weight: 500;
+}
+
+
+
+h3.entry-title.qodef-post-title {
+    color: #060606;
+    font-family: 'Poppins' !important;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.45em;
+    letter-spacing: 0px;
+}
+p.qodef-post-excerpt {
+    color: #6b6768;
+    font-family: 'PT Sans', sans-serif !important;
+    font-size: 16px;
+}
+
+.NamePostBlog .qodef-social-share-holder.qodef-list li {
+    margin: 0 12px 3px 0 !important;
+}
+
+.NamePostBlog .fa-pinterest,
+.NamePostBlog .fa-linkedin,
+.NamePostBlog .fa-twitter,
+.NamePostBlog .fa-facebook {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid #eae9e7;
+}
+
+/*.qodef-top-bar {*/
+/*    display: none;*/
+/*}*/
+
+.qodef-header-centered .qodef-page-header .qodef-logo-area {
+    height: 90px !important;
+}
+.page-id-17346 .qodef-page-header .qodef-logo-area {
+    background-color: #F2E9E4;
+}
+.qodef-header-centered .qodef-page-header .qodef-logo-area .qodef-logo-wrapper a {
+    /*height: 50px !important;*/
+}
+
+.RowTopPostBlog {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.NamePostBlog .vc_column-inner {
+    padding: 30px !important;
+}
+
+
+.NamePostBlog .vc_column-inner .wpb_wrapper {
+    padding: 30px 48px;
+    background: #fff;
+    
+}
+
+.Ahref {
+    color: #060606;
+    font-family: Merriweather,serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+p.DiscriptionTitle {
+    font-weight: 400;
+    color: #6b6768;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.TitlePostBlog {
+    
+}
+.DiscriptionBooks {
+    
+}
+.TitlePostBlog .wpb_wrapper{
+    padding: 0 !important
+}
+
+h3.entry-title.qodef-post-title a center {
+    text-align: left;
+}
+
+/*SirV*/
+
+.FigureSirV {
+    position: relative;
+    width: 100%; 
+    max-width: 100%;
+}
+.FigureSirV img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.FigureSirV:hover img.image-hover {
+    opacity: 1;
+}
+img.Sirv:not([width]):not([height]) {
+    /*padding: 0 30px;*/
+}
+  
+/*End*/
+
+
+
+/* Slider */
+
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-200px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-200px * 7));
+  }
+}
+.sliderCarousel { 
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+.sliderCarousel::before, .sliderCarousel::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 180px;
+  z-index: 2;
+}
+.sliderCarousel::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.sliderCarousel::before {
+  left: 0;
+  top: 0;
+}
+.sliderCarousel .SlideTrack {
+  -webkit-animation: scroll 90s linear infinite;
+          animation: scroll 90s linear infinite;
+  display: flex;
+  width: calc(180px * 14);
+}
+.sliderCarousel .Slide {
+  height: auto;
+  width: 180px;
+  text-align: center;
+}
+
+
+/* End */
+    </style>
+</head>
+<body>
+
+
+    <h5 class="TitleFooterLogoClient">Our Partners</h5>
+    <div class="sliderCarousel">
+        <div class="SlideTrack">
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Food-Fight-Grocery-100x100.png" height="auto" width="90" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Northwest-Love-in-a-box-150x150.jpg" height="auto" width="105" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Rose-City-Coffee-Brooklyn-150x150.jpg" height="auto" width="95" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Scars-of-Oregon-150x150.jpg" height="auto" width="95" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Upstream-coffee-and-eatery-logo-150x150.jpg" height="auto" width="95" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/05/Giving-Tree-Cafe-AZ--100x100.webp" height="auto" width="95" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Grocery-Outlet-Logo-150x150.jpg" height="auto" width="95" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Logo-Know-Thy-Food-Co-op.jpg" height="auto" width="160" alt="" style="margin-top:25px ;"/>
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Northwest-Love-in-a-box-150x150.jpg" height="auto" width="105" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Food-Fight-Grocery-100x100.png" height="auto" width="95" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Rose-City-Coffee-Brooklyn-150x150.jpg" height="auto" width="90" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Scars-of-Oregon-150x150.jpg" height="auto" width="95" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Upstream-coffee-and-eatery-logo-150x150.jpg" height="auto" width="95" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/05/Giving-Tree-Cafe-AZ--100x100.webp" height="auto" width="95" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Grocery-Outlet-Logo-150x150.jpg" height="auto" width="95" alt="" />
+            </div>
+            <div class="Slide">
+                <img src="https://jaclyncreations.com/wp-content/uploads/2022/08/Logo-Know-Thy-Food-Co-op.jpg" height="auto" width="160" alt="" style="margin-top:25px ;" />
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
